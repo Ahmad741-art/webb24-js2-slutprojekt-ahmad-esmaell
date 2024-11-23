@@ -15,7 +15,7 @@ Setup Instructions
 Open the terminal and navigate to the project folder:
 
 cd project-directory
-Replace project-directory with Webshop_Frontend or Webshop_Backend.
+Replace project-directory with Frontend or Backend.
 
 For the front end:
 
