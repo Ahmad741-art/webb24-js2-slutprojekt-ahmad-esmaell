@@ -19,14 +19,14 @@ Replace project-directory with Frontend or Backend.
 
 For the front end:
 
-Go to the Webshop_Frontend folder.
+Go to the Frontend folder.
 Run:
 npm install
 Start the server with:
 npm run dev
 For the back end:
 
-Go to the Webshop_Backend folder.
+Go to the Backend folder.
 Run:
 npm install
 Start the server with:
