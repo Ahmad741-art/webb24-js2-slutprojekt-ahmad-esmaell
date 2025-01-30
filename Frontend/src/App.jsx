@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu } from "./components/Menu";
-import { ProductContainer } from "./components/ProductContainer";
+import { ProductContainer } from "./components/product-container";
 import { ShoppingCart } from "./components/ShoppingCart";
 import { PaymentConfirmation } from "./components/PaymentConfirmation";
 
@@ -18,7 +18,7 @@ export function App() {
   return (
     <>
       <header>
-        <h1>Snag & Bag Shop</h1>
+        <h1>Candy World</h1>
         <Menu setCurrentPage={setCurrentPage} cart={cart}/>
       </header>
 

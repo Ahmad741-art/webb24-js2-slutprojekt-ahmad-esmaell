@@ -3,21 +3,21 @@
     "id": 1,
     "name": "chocolate",
     "price": 30,
-    "stock": 25,
+    "stock": 14,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/800px-Green_and_Black%27s_dark_chocolate_bar_2.jpg"
   },
   {
     "id": 2,
     "name": "TicTac",
     "price": 20,
-    "stock": 15,
+    "stock": 5,
     "image": "https://www.french-corner-shop.com/1218-large_default/tic-tac-strawberry-duo-candy.jpg"
   },
   {
     "id": 3,
     "name": "Snickers",
     "price": 10,
-    "stock": 40,
+    "stock": 31,
     "image": "https://pi.nice-cdn.com/upload/image/product/large/default/snickers-classic-50-g-1228608-en.jpg"
   },
   {

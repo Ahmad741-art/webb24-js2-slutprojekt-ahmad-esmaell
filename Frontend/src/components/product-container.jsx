@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductCard } from "./ProductCard";
+import { ProductCart } from "./ProductCart";
 
 export function ProductContainer({ products, setCart, cart, setProducts }) {
   const addToCart = (product) => {
@@ -13,7 +13,7 @@ export function ProductContainer({ products, setCart, cart, setProducts }) {
   return (
     <div className="product-container">
       {products.map(({ id, image, name, price, stock }) => (
-        <ProductCard
+        <ProductCart
           key={id}
           image={image}
           product={name}

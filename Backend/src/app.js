@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
+import { log } from 'console';
 
 const app = express();
 app.use(cors());
@@ -10,22 +11,33 @@ app.use(express.json());
 
 const PORT = 3000;
 
-const productsFile = path.resolve('./src/products.json');
+const productsFile = path.resolve('src/product.json');
 
 
-app.get('/products', (req, res) => {
-  fs.readFile(productsFile, 'utf8', (err, data) => {
+await app.get('/products', (req, res) => {
+
+  console.log("TEST");
+  
+
+  fs.readFile(productsFile, 'utf8', (err, data) =>  {
+
     if (err) {
-      res.status(500).json({ error: 'Unable to load products' });
+      return res.status(500).json({ error: 'Unable to load products' });
     } else {
-      const products = JSON.parse(data);
-      res.json(products);
+      const object = JSON.parse(data);
+      res.json(object);
     }
   });
+
+
+
+
 });
 
 
 app.post('/transaction', (req, res) => {
+  console.log("HEJHEJ");
+  
   const purchasedItems = req.body;
   console.log("Processing purchase request:", purchasedItems);
 
@@ -43,6 +55,9 @@ app.post('/transaction', (req, res) => {
         product.stock -= purchasedItem.quantity;
       }
     });
+
+console.log("IN PRODUCTS OBJECT:", products);
+
 
     fs.writeFile(productsFile, JSON.stringify(products, null, 2), (err) => {
       if (err) {

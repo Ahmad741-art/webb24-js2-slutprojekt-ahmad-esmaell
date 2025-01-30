@@ -1,5 +1,5 @@
 # webb24-js2-slutprojekt-ahmad-esmaell
-Snag & Bag Shop is a simple e-commerce application built with React for the front end and Node.js for the back end. It lets users browse products, add items to a cart, and complete purchases.
+Candy World is a simple e-commerce application built with React for the front end and Node.js for the back end. It lets users browse products, add items to a cart, and complete purchases.
 
 Features
 Product Page:
