@@ -3,35 +3,35 @@
     "id": 1,
     "name": "chocolate",
     "price": 30,
-    "stock": 14,
+    "stock": 33,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/800px-Green_and_Black%27s_dark_chocolate_bar_2.jpg"
   },
   {
     "id": 2,
     "name": "TicTac",
     "price": 20,
-    "stock": 5,
+    "stock": 24,
     "image": "https://www.french-corner-shop.com/1218-large_default/tic-tac-strawberry-duo-candy.jpg"
   },
   {
     "id": 3,
     "name": "Snickers",
     "price": 10,
-    "stock": 31,
+    "stock": 30,
     "image": "https://pi.nice-cdn.com/upload/image/product/large/default/snickers-classic-50-g-1228608-en.jpg"
   },
   {
     "id": 4,
     "name": "KitKat",
     "price": 25,
-    "stock": 10,
+    "stock": 29,
     "image": "https://www.kitkat.com/sites/default/files/2024-06/06_KITKAT_Master_Identity_RGB_0.png"
   },
   {
     "id": 5,
     "name": "Skittles",
     "price": 15,
-    "stock": 10,
+    "stock": 29,
     "image": "https://ams3.digitaloceanspaces.com/avmedia/b/2e/b2eb702a-5101-42fc-b888-c0c71a517f85.jpg"
   }
 ]

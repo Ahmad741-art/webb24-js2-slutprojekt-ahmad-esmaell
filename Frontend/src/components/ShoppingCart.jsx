@@ -45,7 +45,9 @@ export function ShoppingCart({ cart, setCart, setCurrentPage }) {
       window.location.reload();
     }, 800);
   };
-  const totalPrice = cart.reduce((acc, item) => acc + item.price * productCount[item.name], 0);
+
+  const totalPrice = cart.reduce((acc, item) => { console.log(acc);return item.price  + acc}, 0);
+  console.log(totalPrice); 
 
   return (
     <div className="cart">

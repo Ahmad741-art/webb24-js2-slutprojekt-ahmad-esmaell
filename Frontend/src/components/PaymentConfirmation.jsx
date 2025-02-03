@@ -12,7 +12,7 @@ export function PaymentConfirmation() {
   return (
     <div className="payment-confirmation">
       <h2>Payment Confirmed!</h2>
-      <h3>Thank you for shopping at Snag & Bag Shop</h3>
+      <h3>Thank you for shopping at Candy World Shop</h3>
       <p className='inform-user'>Sending user to main page in a few seconds...</p>
     </div>
   )
